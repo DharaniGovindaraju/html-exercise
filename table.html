@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>table</title>
+    <style>
+        table,th,td{
+               border:1px solid black;
+               border-spacing:5px;
+               border-collapse:collapse;}
+        th,td{padding:10px;}
+        table#example{width:"50%"}
+table#amp tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+table#amp tr:nth-child(odd) {
+   background-color:green;
+}
+table#amp th {
+    background-color: black;
+    color: white;
+}
+
+    </style>           
+  </head>
+  <body>
+    <table id="amp">
+      <caption>example</caption>
+      <tr>
+        <th>Name</th>
+        <th colspan="2">mobile</th>
+        <th rowspan="2">idl</th>
+      </tr>
+      <tr>
+        <td>dharani</td>
+        <td>9487679979</td>
+	<td>9864523645</td>
+        <td>1</td>
+        <td>1</td>
+      </tr>
+      <tr>
+         <td>poorni</td>
+         <td>9788709646</td>
+	 <td>9874651230</td>
+          <td>1</td>
+          <td>1</td>
+      </tr>
+    </table>
+  </body>
+</html>

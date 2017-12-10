@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Excersie_1</title>
+	<style>
+	   heading{background-color:black;
+	           color:white;
+			   text-align:center;}
+	    #first{font-family:courier;}
+	</style>
+  </head>
+  <body>
+    <div id="first">
+	  <heading>Eample for paragraph</heading>
+	  <h3>ESSAY ON DEFORESTATION<h3>
+       <p>    Deforestation is arising as the main environmental and social issue which has now taken the form of more than a powerful demon.<br>
+     	   We must know about the causes, effects and ways to solve the problems arisen because of the deforestation.<br>
+		   We have provided many paragraphs, long and short essay on deforestation in order to help your kids and children to get aware about the problem as well as get participated in the essay writing competition in the school or outside the school.<br> 
+		   You can select any <b>deforestation essay</b> given below according to the class standard.</p>
+	  <p><strong>Deforestation is the removal of forests on a big level by cutting down plants or burning of forests for fulfilling the personal needs.</strong><br>
+    	  Forests are of great <em>importance</em> for the whole human fraternity as well as managing the natural balance in the environment.<br>
+		  However, human beings are regularly <i>cutting down the trees</i> without seeing its side effects on the society and environment.<br>
+		  Woods have been of great importance historically from the ancient time and used for many purposes like heating <mark>fuel, building houses, ships, paper production and many more daily activities</mark> of the human beings.<br>
+		  Forests are very necessary for us and our future generations to enjoy and live a healthy and peaceful life in the healthy environment free of pollution.</p>
+
+
+	</div>
+  </body>
+</html>

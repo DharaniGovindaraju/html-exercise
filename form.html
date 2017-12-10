@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>form</title>
+  </head>
+  <body>
+    <form action="" method="post">
+	  <fieldset>
+	    <legend>Personal information</legend>
+		First name:<input type = "text" name = "first"><br>
+		Last name:<input type = "text" name = "last"><br>
+		<input type = "radio" name = "Gender" checked>male<br>
+		<input type = "radio" name = "Gender" >female<br>
+		<select name="city" size="1" multiple>Preferred city
+		  <option value="Coimbatore">Coimbatore</option>
+		  <option value="erode">erode</option>
+		  <option value="Chennai">Chennai</option>
+		  <option value="tanjore">tanjore</option>
+		  <option value="thirunelveli">Thirunelveli</option>
+		 </select>
+		 <p>Tell something</p>
+		 <textarea name="message" rows="10" cols="15" style="height:50px;width:50px">
+		 </textarea>
+		 <input type="submit">
+		 <oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		 0<input type="range" id="a" name="a" value="10">
+		 100+
+		 <input type="number" id="b" name="b" value="10">
+		 =
+		 <output name="x" for="a b"></output><br>
+		<input type="submit">
+		
+	  </fieldset>
+	</form>
+  </body>
+</html>

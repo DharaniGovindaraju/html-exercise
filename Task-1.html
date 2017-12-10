@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task-1</title>
+    <style>
+	    .task{border:1px solid black;
+		      margin:10px;
+			  padding:10px}
+		
+		table{width:100%;
+		      text-align:center}
+		table,th,td{border:1px solid black;
+		            border-collapse:collapse;
+					padding:10px;}
+		#table tr:nth-child(even){background-color:grey;}
+        #table thead,tfoot{color:red;}	
+		header,footer{text-align:center;
+		       Background-color:pink;}
+		ul{list-style-type:none;
+		         margin:0;
+				 padding:0;
+				 text-decoration:none;
+				 background-color:red;
+				 overflow:hidden;}
+	    ul li{float:left;
+	           }
+		ul li a{
+	       display:block;
+		   text-align:center;
+		    padding: 10px;
+	       }
+	    ul  li a:hover{
+	          background-color:Black;
+	          }
+		.ol{type="i"
+		   }
+		img{float:left;
+		    height:10%;
+			width:10%;}
+	
+    </style>
+  </head>
+  <body>
+   <div class="task">
+    <div class="list">
+	  <div class="ul">
+		<ul>
+		  <li><a href="Pen">Pen</a></li>
+		  <li><a href="pencil">Pencil</a></li>
+		  <li><a href="Box">Box</a></li>
+		  <li><a href="Eraser">Eraser</a></li>
+		  <li><a href="Sharpener">Sharpener</a></li>		  
+		</ul>
+	  </div>
+	  <div class="ol">
+	   <header>horizontal list uses</header>
+	    <ol>
+		  <li>Pen is used to write</li>
+		  <li>Pencil is used to write</li>
+		  <li>Box used to keep pen,pencil,etc.,</li>
+		  <li>Eraser is used to erase wrongly written words</li>
+		  <li>Sharpener used to sharp pencils</li>		  
+		</ol>
+	  </div>
+	</div>
+	<div id="paratable">
+	  <div id="para"><br><br>
+	   <header>Essay about pen and pencil</header>
+	    <h2>About pen:</h2>
+		<img src="pen.jpg" alt="pen">
+	     <p><article>A pen is a writing instrument used to apply ink to a surface, usually paper, for writing or drawing.<br> Historically, reed pens, quill pens, and dip pens were used, with a nib dipped in ink.</article></p>
+		<br><br><br><br><h2>About pencil:</h2>
+		<img src="pencil.jpg" alt="pencil">
+		<p><article>A pencil is a writing implement or art medium constructed of a narrow, solid pigment core inside a protective casing which prevents the core from being broken and/or from leaving marks on the user’s hand during use.</article></p>
+	  </div><br><br><br><br><br>
+	<header>Example for table</header>
+	  <div id="table">
+	    <table>
+		  <caption>Billing<caption>
+	      <thead>
+		    <tr>
+		      <th>S.no</th>
+			  <th>Stationary</th>
+			  <th>cost R<sub>s<sub></th>
+		    </tr>
+		  <thead>
+		  <tbody>
+		    <tr>
+			  <td>1</td>
+			  <td>Pen</td>
+			  <td>50</td>
+			</tr>
+			  <td>2</td>
+			  <td>Pencil</td>
+			  <td>20</td>
+			</tr>
+			  <td>3</td>
+			  <td>Eraser</td>
+			  <td>30</td>
+			</tr>
+		  </tbody>
+		  <tfoot>
+		    <tr>
+			  <td> </td>
+			  <td>Total</td>
+			  <td>100</td>
+			<tr>
+		  </tfoot>
+		</table>
+	</div>
+	<div class="buttons">
+	  <fieldset>
+	    <legend>Personal information</legend>
+		<input type = "text" name = "first" placeholder="First name"><br>
+		Last name:<input type = "text" name = "last"><br>
+		<input type = "radio" name = "Gender" checked>male<br>
+		<input type = "radio" name = "Gender" >female<br>
+        Email id:<input type = "email" name = "mail" ><br>
+		Password:<input type = "password" name = "pw" ><br>
+		  <input type="button" onclick="alert('password set')" value="check"><input type = "reset"><br>
+		Date of birth<input type="date" name="dob"><br>
+		fav color<input type = "color" name = "clr" ><br>
+		phone number<input type = "tel" name = "num" ><br>
+		<p>Preferred city</p>
+		<select name="city" size="1" multiple>
+		  <option value="Coimbatore">Coimbatore</option>
+		  <option value="erode">erode</option>
+		  <option value="Chennai">Chennai</option>
+		  <option value="tanjore">tanjore</option>
+		  <option value="thirunelveli">Thirunelveli</option>
+		 </select>
+		 <p>Tell something</p>
+		 <textarea name="message" rows="10" cols="15" style="height:50px;width:50px">
+		 </textarea>
+		 <input type="submit">
+	  </fieldset>
+
+	</form>
+	</div>
+		<footer>Thank you</footer>
+	</div>
+
+  </body>
+</html>

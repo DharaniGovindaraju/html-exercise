@@ -1,0 +1,168 @@
+<html>
+  <head>
+    <title>Excersie_1</title>
+	<style>
+	   header,footer{background-color:black;
+	           color:white;
+			   text-align:center;
+			   padding:10px;}
+	    #first{font-family:courier;
+		      margin-left: 170px;
+			  margin-bottom:10px;
+              border-left: 1px solid gray;
+              padding: 1px;
+              overflow: hidden;
+			  background-image:abc.jpg
+				}
+		#first h3{color:red;}
+		.image{float: left;
+               max-width: 160px;
+			   max-height:480px;
+               margin: 0;
+               padding: 1px;
+			   }
+		table{width:100%;
+		      text-align:center}
+		table,th,td{border:1px solid black;
+		            border-collapse:collapse;
+					padding:10px;}
+		.table tr:nth-child(even){background-color:grey;}
+        .table th{background-color:black;
+		          color:white;
+		          }	
+		.iframe{float:left;
+		        max-width:160px;
+				margin:0;
+				padding:1px;
+				border-right:1px solid grey;}
+	</style>
+  </head>
+  <body>
+  	<div class="image">
+	   	  <header>Example for image</header>
+		  <img src="download.jpg" alt="flower" width="50px" height="60px" style="float:left">
+		  <p><small>To insert a image</small></p><br>
+		  <p><small>Image as link</small></p>
+		  <a href="http://www.google.com" target="_blank"><img src="abc.jpg" alt="flower" width="10px" height="10px" style="float:left"></a>
+		  <p><small>click image</small></p>
+          <p><small>Animated image</small><p>
+		  <img src="Rotating_earth_(large).gif" alt="gif image" width="10%" height="20%">
+          <p><small>Image varying according to the display size</small></p>
+		  <picture>
+		    <source srcset="abc.jpg" media="(min-width:650px)" >
+		    <source srcset="bcd.jpg" media="(min-width:465px)" >
+		    <img src="download.jpg" alt="flower" width="50%" height="30%";>
+		  </picture>
+		  <p><small>image map with clickable areas</small><p>
+		  <img  src="workplace.jpg" width="80%" alt="Workplace" usemap="#dharani">
+		  <map name="dharani">
+		  <area shape="rect" coords="34,44,270,350" alt="computer" href="bcd.jpg">
+		  </map>  
+		 <hr> 
+	</div>
+    <div id="first">
+	  <header>example for paragraph</header>
+	  <h3>ESSAY ON DEFORESTATION</h3>
+	   <ul>
+       <p><li> <q>Deforestation</q> is arising as <i>the main environmental and social issue </i>which has now taken the form of more than a powerful demon.</li><br>
+     	  <li> We must know about the causes, effects and ways to solve the problems arisen because of the deforestation.</li><br>
+		  <li>  We have provided many paragraphs, long and short essay on deforestation in order to help your kids and children to get aware about the problem as well as get participated in the essay writing competition in the school or outside the school.</li><br> 
+		  <li> You can select any <b>deforestation essay</b> given below according to the class standard.</li></p>
+	  <p><li><strong>Deforestation is the removal of forests on a big level by cutting down plants or burning of forests for fulfilling the personal needs.</li></strong><br>
+    	 <li> Forests are of great <em>importance</em> for the whole human fraternity as well as managing the natural balance in the environment.</li><br>
+		 <li> However, human beings are regularly <i>cutting down the trees</i> without seeing its side effects on the society and environment.</li><br>
+		 <li> Woods have been of great importance historically from the ancient time and used for many purposes like heating <mark>fuel, building houses, ships, paper production and many more daily activities</mark> of the human beings.</li><br>
+		 <li> <sup>Forests</sup> are very necessary for us and our future generations to enjoy and live a <small>healthy and peaceful life</small> in the healthy environment free of pollution.</li></p>
+        </ul>
+	  <pre><blockquote cite:"http://www.kidsworldfun.com/kidspoems/the-rabbit.php">
+	     THE moon is shining o'er the field,
+        A little breeze is blowing,
+        The radish leaves are crisp and green,
+        The lettuces are growing.
+		</blockquote>
+		
+	  </pre>
+	</div>
+	<hr>
+
+	<div class="table">
+	<header>Example for table</header>
+	   <table>
+	    <caption>Student</caption>
+	     <tr>
+		   <th>Name</th>
+		   <th>dep</th>
+		   <th>college</th>
+		   <th>year</th>
+		   <th colspan="2">mobile</th>
+		 </tr>  
+		 <tr>
+		   <td>Dharani</td>
+		   <td>ECE</td>
+		   <td>Bit</td>
+		   <td>2016</td>
+		   <td>9876541230</td>
+		   <td>1234567890</td>
+		 </tr>
+		 <tr>
+		   <td>kiruba</td>
+		   <td>ECE</td>
+		   <td>Bit</td>
+		   <td>2016</td>
+		   <td>9876541230</td>
+		   <td>1234567890</td>
+		 </tr>
+		 <tr>
+		   <td>Poornima</td>
+		   <td>EiE</td>
+		   <td>kct</td>
+		   <td>2012</td>
+		   <td>9876541230</td>
+		   <td>1234567890</td>
+		 </tr>
+	   </table>
+	   <hr>
+	</div>
+	<div class="iframe">
+	 <header>Example for iframe</header>
+	  <iframe src="download (3).jpg" name="hello" style="border:2px solid grey;" width="100%"></iframe>
+	  <p>click the link to open the web page in iframe</p>
+	  <a href="www.google.com" target="hello">link</a>
+	</div>
+	<div class="buttons">
+	  <fieldset>
+	    <legend>Personal information</legend>
+		<input type = "text" name = "first" placeholder="First name"><br>
+		Last name:<input type = "text" name = "last"><br>
+		<input type = "radio" name = "Gender" checked>male<br>
+		<input type = "radio" name = "Gender" >female<br>
+        Email id:<input type = "email" name = "mail" ><br>
+		Password:<input type = "password" name = "pw" ><br>
+		  <input type="button" onclick="alert('password set')" value="check"><input type = "reset"><br>
+		Date of birth<input type="date" name="dob"><br>
+		fav color<input type = "color" name = "clr" ><br>
+		phone number<input type = "tel" name = "num" ><br>
+		<p>Preferred city</p>
+		<select name="city" size="1" multiple>
+		  <option value="Coimbatore">Coimbatore</option>
+		  <option value="erode">erode</option>
+		  <option value="Chennai">Chennai</option>
+		  <option value="tanjore">tanjore</option>
+		  <option value="thirunelveli">Thirunelveli</option>
+		 </select>
+		 <p>Tell something</p>
+		 <textarea name="message" rows="10" cols="15" style="height:50px;width:50px">
+		 </textarea>
+		 <input type="submit">
+	  </fieldset>
+	  <oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+		 0<input type="range" id="a" name="a" value="10">
+		 100+
+		 <input type="number" id="b" name="b" value="10">
+		 =
+		 <output name="x" for="a b"></output><br>
+	</form>
+	</div>
+	<footer>Copy@w3schools</footer>
+  </body>
+</html>
